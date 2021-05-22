@@ -1,8 +1,8 @@
 {
   "lang": "en",
-  "name": "Phinixblogs",
-  "short_name": "Phinixblogs",
-  "description": "Second Blog in Testing",
+  "name": "PhinixNotes",
+  "short_name": "PhinixNotes",
+  "description": "",
   "start_url": "/weblogs/?utm_source=homescreen",
   "theme_color": "rgb(8,46,57)",
   "background_color": "#fff",

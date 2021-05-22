@@ -24,7 +24,7 @@ title:                PhinixNotes
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           
+description:           <Notes Repository>
 
 # A shorter description for the sidebar.
 tagline:               All the notes rest here

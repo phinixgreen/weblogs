@@ -1,0 +1,29 @@
+I"ƒ
+<footer class="content" role="contentinfo">
+  <hr/>
+  
+    <p><small class="copyright">Â© 2021. All rights reserved.
+</small></p>
+  
+  
+    <nav class="legal"><small>
+    
+      
+      <a class="heading flip-title" href="/weblogs/LICENSE/">LICENSE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/weblogs/NOTICE/">NOTICE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/weblogs/CHANGELOG/">CHANGELOG</a>
+      
+    
+    </small></nav>
+  
+    <p><small>Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.1.4</span></small></p>
+  <hr class="sr-only"/>
+</footer>
+
+:ET

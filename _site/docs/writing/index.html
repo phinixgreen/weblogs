@@ -31,21 +31,19 @@ Powered by Hydejack v9.1.4 <https://hydejack.com/>
 
   
     
-<!-- Begin Jekyll SEO tag v2.7.1 -->
+<!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>Writing | Phinixblogs</title>
-<meta name="generator" content="Jekyll v4.2.0" />
+<meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="Writing" />
 <meta name="author" content="<Muhammad> <Monowar>" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="Hydejack offers a few additional features to markup your content. Don’t worry, these are merely CSS classes added with kramdown’s {:...} syntax, so that your content remains compatible with other Jekyll themes." />
 <meta property="og:description" content="Hydejack offers a few additional features to markup your content. Don’t worry, these are merely CSS classes added with kramdown’s {:...} syntax, so that your content remains compatible with other Jekyll themes." />
-<link rel="canonical" href="https://phinixgreen.github.io/weblogs/docs/writing/" />
-<meta property="og:url" content="https://phinixgreen.github.io/weblogs/docs/writing/" />
+<link rel="canonical" href="http://localhost:4000/weblogs/docs/writing/" />
+<meta property="og:url" content="http://localhost:4000/weblogs/docs/writing/" />
 <meta property="og:site_name" content="Phinixblogs" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Writing" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"<Muhammad> <Monowar>"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://phinixgreen.github.io/weblogs/assets/img/logo.png"},"name":"<Muhammad> <Monowar>"},"url":"https://phinixgreen.github.io/weblogs/docs/writing/","headline":"Writing","dateModified":"2021-05-22T23:43:17+06:00","description":"Hydejack offers a few additional features to markup your content. Don’t worry, these are merely CSS classes added with kramdown’s {:...} syntax, so that your content remains compatible with other Jekyll themes.","@type":"WebPage","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"<Muhammad> <Monowar>"},"url":"http://localhost:4000/weblogs/docs/writing/","headline":"Writing","dateModified":"2021-05-22T23:43:17+06:00","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/weblogs/assets/img/logo.png"},"name":"<Muhammad> <Monowar>"},"description":"Hydejack offers a few additional features to markup your content. Don’t worry, these are merely CSS classes added with kramdown’s {:...} syntax, so that your content remains compatible with other Jekyll themes.","@type":"WebPage","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -74,9 +72,9 @@ Powered by Hydejack v9.1.4 <https://hydejack.com/>
 <meta name="generator" content="Hydejack v9.1.4" />
 
 
-<link rel="alternate" href="https://phinixgreen.github.io/weblogs/docs/writing/" hreflang="en">
+<link rel="alternate" href="http://localhost:4000/weblogs/docs/writing/" hreflang="en">
 
-<link type="application/atom+xml" rel="alternate" href="https://phinixgreen.github.io/weblogs/feed.xml" title="Phinixblogs" />
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/weblogs/feed.xml" title="Phinixblogs" />
 
 
 <link rel="shortcut icon"    href="/weblogs/assets/icons/favicon.ico">
@@ -109,7 +107,7 @@ Powered by Hydejack v9.1.4 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/weblogs/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/weblogs/',
-    INDEX_KEY: 'index--2021-05-23T00:15:08+06:00',
+    INDEX_KEY: 'index--2021-05-23T00:34:01+06:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -1096,7 +1094,7 @@ You can read more about it <a href="https://github.com/penibelst/jekyll-compress
 <h3 id="inline">Inline</h3>
 <p>Example:</p>
 
-<p>Lorem ipsum \(f(x) = x^2\).</p>
+<p>Lorem ipsum <script type="math/tex">f(x) = x^2</script>.</p>
 
 <p>Markdown:</p>
 <div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lorem ipsum $$ f(x) = x^2 $$.
@@ -1105,21 +1103,22 @@ You can read more about it <a href="https://github.com/penibelst/jekyll-compress
 <h3 id="block">Block</h3>
 <p>Example:</p>
 
-\[\begin{aligned}
-  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &amp;= (x_1, \ldots, x_n)
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}
+  \phi(x,y) &= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
+            &= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
+            &= (x_1, \ldots, x_n)
                \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
-                 \vdots          &amp; \ddots &amp; \vdots         \\
-                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
+                 \phi(e_1, e_1)  & \cdots & \phi(e_1, e_n) \\
+                 \vdots          & \ddots & \vdots         \\
+                 \phi(e_n, e_1)  & \cdots & \phi(e_n, e_n)
                \end{array}\right)
                \left(\begin{array}{c}
                  y_1    \\
                  \vdots \\
                  y_n
                \end{array}\right)
-\end{aligned}\]
+\end{aligned} %]]></script>
 
 <p class="figcaption">An optional caption for a math block</p>
 
